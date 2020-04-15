@@ -1,3 +1,28 @@
 body{
+  margin: 0;
+}
+
+#myname{
+  margin: 0;
+}
+
+/*
+div{
+  background-color: #e3fdfd;
+}*/
+
+.top-container{
+  background-color: #e3fdfd;
+}
+
+.middle-container{
+  height: 200px;
+  width: 200px;
+  background-color: blue;
+}
+
+.bottom-container{
+  height: 200px;
+  width: 200px;
   background-color: red;
 }
