@@ -1,9 +1,23 @@
+
+
 body{
   margin: 0;
+  font-family: 'Merriweather', serif;
 }
 
 #myname{
-  margin: 0;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 48px;
+  font-family: 'Poppins', sans-serif;
+  font-color: #141c3a;
+}
+
+#mydesc{
+  text-align: center;
+  margin: 0 auto;
+  font-family: 'Poppins', sans-serif;
+  font-color: #141c3a;
 }
 
 /*
@@ -12,7 +26,7 @@ div{
 }*/
 
 .top-container{
-  background-color: #e3fdfd;
+  /*background-color: #e3fdfd;*/
 }
 
 .middle-container{
