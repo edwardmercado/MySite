@@ -4,9 +4,11 @@ body{
   margin: 0;
   font-family: 'Merriweather', serif;
   text-align: center;
+  font-size: 1rem;
+  font-weight: normal;
 }
 
-#myname{
+.myname{
   display: inline-block;
   text-align: center;
   font-size: 3rem; /* static font sizing | not inherited | 1rem == 16px | recommended for font sizes */
@@ -16,7 +18,7 @@ body{
   line-height: 2;
 }
 
-#mydesc{
+.mydesc{
   display: block;
   text-align: center;
   font-family: 'Poppins', sans-serif;
@@ -25,17 +27,24 @@ body{
 }
 
 .menu-img{
-  padding-top: 50px;
-  width:10%;
+  padding-top: 30px;
+  width:9rem;
 }
 
 .web-development-img{
-  padding-top: 50px;
-  width:10%;
+  padding-top: 30px;
+  width:9rem;
 }
 
-h1, h2, h3, h4, h5, h6{
+h2{
   font-family: 'Poppins', sans-serif;
+  color: #66BFBF;
+  font-size: 2rem;
+}
+
+h3{
+  font-family: 'Poppins', sans-serif;
+  color: #66BFBF;
   font-weight: normal;
 }
 
@@ -49,10 +58,27 @@ div{
   padding:30px 0;
 }
 
+.profile-container{
+  display: inline-block;
+  padding: 30px 0;
+  margin: 0 auto;
+}
+
+.profile-container img{
+  text-align: center;
+}
+
+.skills-container{
+  display: inline-block;
+  padding:20px;
+  margin: 0 auto;
+}
+
 .skill-row{
-  width: 50%;
   margin: 100px auto;
   text-align: left;
+  padding:20px 0;
+  width: 50%;
 }
 
 .skill-row p{
@@ -60,39 +86,89 @@ div{
 }
 
 .skill-row .comp1-img{
-  width: 25%;
+  width: 10rem;
   float: left;
   margin-right: 30px;
   margin-bottom: 10px;
 }
 
 .skill-row .comp2-img{
-  width: 25%;
+  width: 10rem;
   float: right;
   margin-left: 30px;
   margin-bottom: 10px;
 }
 
-.profile-container{
-  display: inline-block;
-  width: 50%;
-  margin: 50px;
+.skill2_description{
+  text-align: right;
+}
+
+.skill2_title{
+  text-align: right;
 }
 
 hr{
   border-style: dotted none none none;
   border-width: thick;
-  width:3%;
+  width: 3rem;
   color: gray;
 }
+
+.contact-me-container{
+  display: inline-block;
+  padding: 30px 0;
+  margin: 0 auto;
+}
+
+.contact-me .btn{
+  margin-top: 30px;
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 1.5rem;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #66BFBF;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+  font-family: 'Poppins', sans-serif;
+}
+
+.btn:hover {background-color: #519898}
+
+.btn:active {
+  background-color: #519898;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
 
 .bottom-container{
   background-color: #66BFBF;
   margin: 0;
-  padding: 20px;
+  padding: 20px 0;
   margin-top: 30px;
 }
 
 .footer-link{
   margin: 20px 20px;
+}
+
+.copyright{
+  font-size: 0.8rem;
+  color: #EAF6F6;
+}
+
+.footer-link-container{
+  font-family: 'Poppins', sans-serif;
+  color: #11999E;
+  padding: 20px;
+  text-decoration: none;
+}
+
+.footer-link-container a{
+  text-decoration: none;
 }
