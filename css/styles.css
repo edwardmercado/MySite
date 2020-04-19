@@ -1,23 +1,42 @@
-
+/* for paddings, margin use px instead */
 
 body{
   margin: 0;
   font-family: 'Merriweather', serif;
+  text-align: center;
 }
 
 #myname{
+  display: inline-block;
   text-align: center;
-  margin: 0 auto;
-  font-size: 48px;
+  font-size: 3rem; /* static font sizing | not inherited | 1rem == 16px | recommended for font sizes */
   font-family: 'Poppins', sans-serif;
-  font-color: #141c3a;
+  color: #141c3a;
+  font-weight: bold;
+  line-height: 2;
 }
 
 #mydesc{
+  display: block;
   text-align: center;
-  margin: 0 auto;
   font-family: 'Poppins', sans-serif;
-  font-color: #141c3a;
+  color: #141c3a;
+  font-size: 1rem;
+}
+
+.menu-img{
+  padding-top: 50px;
+  width:10%;
+}
+
+.web-development-img{
+  padding-top: 50px;
+  width:10%;
+}
+
+h1, h2, h3, h4, h5, h6{
+  font-family: 'Poppins', sans-serif;
+  font-weight: normal;
 }
 
 /*
@@ -26,17 +45,54 @@ div{
 }*/
 
 .top-container{
-  /*background-color: #e3fdfd;*/
+  background-color: #e3fdfd;
+  padding:30px 0;
 }
 
-.middle-container{
-  height: 200px;
-  width: 200px;
-  background-color: blue;
+.skill-row{
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.skill-row p{
+  line-height: 2;
+}
+
+.skill-row .comp1-img{
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+
+.skill-row .comp2-img{
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+.profile-container{
+  display: inline-block;
+  width: 50%;
+  margin: 50px;
+}
+
+hr{
+  border-style: dotted none none none;
+  border-width: thick;
+  width:3%;
+  color: gray;
 }
 
 .bottom-container{
-  height: 200px;
-  width: 200px;
-  background-color: red;
+  background-color: #66BFBF;
+  margin: 0;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+.footer-link{
+  margin: 20px 20px;
 }
