@@ -26,10 +26,9 @@ h3{
 }
 
 hr{
-  border: dotted #EAF6F6 6px;
+  border: dotted gray 6px;
   border-bottom: none;
   width: 3rem;
-  color: gray;
   margin: 100px auto;
 }
 
@@ -69,8 +68,8 @@ hr{
 
 
 .intro{
+  margin: 0 auto;
   width: 44%;
-  margin: auto;
 }
 
 .profile-container{
@@ -82,7 +81,6 @@ hr{
 }
 
 .skills-container{
-  display: inline-block;
   margin: 0 auto;
 }
 
@@ -90,7 +88,7 @@ hr{
   margin: 50px auto;
   text-align: left;
   padding-top: 20px;
-  width: 55%;
+  width: 44%;
 }
 
 .skill-row p{
@@ -100,21 +98,17 @@ hr{
 .skill-row .comp1-img{
   width: 10rem;
   float: left;
-  margin-right: 30px;
+  margin: 0px 30px 30px 0px;
 }
 
 .skill-row .comp2-img{
   width: 10rem;
   float: right;
-  margin-left: 30px;
+  margin: 0px 0px 30px 30px;
 }
 
-.skill2_description{
-  text-align: left;
-}
+.contact-me-container{
 
-.skill2_title{
-  text-align: left;
 }
 
 
