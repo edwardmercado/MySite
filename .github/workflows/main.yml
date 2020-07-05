@@ -23,13 +23,13 @@ jobs:
       with:
         args: --follow-symlinks --exclude '.git/*'
       env:
+        AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
         aws-access-key-id: ${{ secrets.AWS_ACCESS_KEY_ID }}
         aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
-        aws-region: 'ap-southeast-1'
+        aws-region: ${{ secrets.AWS_REGION }}
         role-to-assume: ${{ secrets.AWS_ROLE_TO_ASSUME }}
         role-duration-seconds: 300
         role-session-name: MySessionName
-        DEST_DIR: my-portfolio-site-edward
 
     # Runs a single command using the runners shell
 #     - name: Run a one-line script
