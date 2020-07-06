@@ -4,7 +4,6 @@ body{
   margin: 0;
   font-family: 'Merriweather', serif;
   text-align: center;
-  font-size: 1rem;
   font-weight: normal;
   color: #40514E;
 }
@@ -17,6 +16,7 @@ h2{
   font-family: 'Poppins', sans-serif;
   color: #66BFBF;
   font-size: 2rem;
+  letter-spacing: 1px;
 }
 
 h3{
@@ -35,11 +35,11 @@ hr{
 .myname{
   display: inline-block;
   text-align: center;
-  font-size: 3rem; /* static font sizing | not inherited | 1rem == 16px | recommended for font sizes */
+  font-size: 2.5rem; /* static font sizing | not inherited | 1rem == 16px | recommended for font sizes */
   font-family: 'Poppins', sans-serif;
   color: #141c3a;
   font-weight: bold;
-  line-height: 2;
+  padding: 30px;
 }
 
 .mydesc{
@@ -47,7 +47,8 @@ hr{
   text-align: center;
   font-family: 'Poppins', sans-serif;
   color: #141c3a;
-  font-size: 1rem;
+  font-size: 1.1rem;
+  margin-bottom: 70px;
 }
 
 .menu-img{
@@ -63,17 +64,22 @@ hr{
 
 .top-container{
   background-color: #e3fdfd;
-  padding:30px 0;
+  padding: 30px 0px 0px 0px;
 }
 
 
 .intro{
   margin: 0 auto;
   width: 44%;
+  font-family: 'Poppins', sans-serif;
+}
+
+.hello{
+  letter-spacing: 1px;
 }
 
 .profile-container{
-  margin-top: 50px;
+  padding: 50px;
 }
 
 .profile-container img{
