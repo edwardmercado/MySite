@@ -14,7 +14,7 @@ p{
 
 h2{
   font-family: 'Poppins', sans-serif;
-  color: #66BFBF;
+  color: #71c9ce;
   font-size: 2rem;
   letter-spacing: 1px;
 }
@@ -40,6 +40,7 @@ hr{
   color: #141c3a;
   font-weight: bold;
   padding: 30px;
+  letter-spacing: 2px;
 }
 
 .mydesc{
@@ -65,6 +66,7 @@ hr{
 .top-container{
   background-color: #e3fdfd;
   padding: 30px 0px 0px 0px;
+  overflow: hidden;;
 }
 
 
@@ -72,6 +74,10 @@ hr{
   margin: 0 auto;
   width: 44%;
   font-family: 'Poppins', sans-serif;
+}
+
+.profile-img{
+  width: 12rem;
 }
 
 .hello{
@@ -84,6 +90,7 @@ hr{
 
 .profile-container img{
   text-align: center;
+  margin-top: 50px;
 }
 
 .skills-container{
