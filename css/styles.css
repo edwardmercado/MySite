@@ -2,7 +2,7 @@
 
 body{
   margin: 0;
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Merriweather', sans-serif;
   text-align: center;
   font-weight: normal;
   color: #40514E;
@@ -34,7 +34,6 @@ hr{
   text-align: center;
   text-decoration: none;
   border-radius: 4rem;
-  transition-duration: 0.4s;
   border: 2px solid #71c9ce;
   letter-spacing: 1px;
 }
@@ -55,9 +54,10 @@ hr{
 .navbar-flexbox-container{
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-around;
   padding: 30px 2rem;
   background-color: #e3fdfd;
+  font-family: 'Poppins', sans-serif;
 }
 
 .icon-img{
@@ -123,18 +123,19 @@ hr{
   overflow: hidden;;
 }
 
+/* Profile Section */
 
-.intro{
+.profile-intro{
   margin: 0 auto;
   width: 44%;
-  font-family: 'Poppins', sans-serif;
+  line-height: 2;
 }
 
 .profile-img{
   width: 12rem;
 }
 
-.hello{
+.profile-text{
   letter-spacing: 1px;
 }
 
@@ -147,22 +148,45 @@ hr{
   margin-top: 50px;
 }
 
+/* Skill container */
+
 .skills-container{
   margin: 0 auto;
 }
 
+.skill-intro{
+  letter-spacing: 2px;
+}
+
 .skill-row{
-  margin: 50px auto;
+  margin: 80px auto;
   text-align: left;
-  padding-top: 20px;
-  width: 44%;
+  width: 50%;
+
 }
 
 .skill-row p{
   line-height: 2;
 }
 
-.skill-row .comp1-img{
+.skill-title{
+  color: #71c9ce;
+  font-size: 1.5rem;
+}
+
+.skill-img{
+  font-size: 5rem;
+  float: left;
+  margin: 20px 50px 50px 0px;
+}
+
+.skill2-img{
+  font-size: 5rem;
+  float: right;
+  margin: 20px 0px 50px 50px;
+}
+
+/* .skill-row .comp1-img{
   width: 10rem;
   float: left;
   margin: 0px 30px 30px 0px;
@@ -172,20 +196,40 @@ hr{
   width: 10rem;
   float: right;
   margin: 0px 0px 30px 30px;
+} */
+
+/* Certifications Section */
+
+.certifications-intro{
+  letter-spacing: 2px;
 }
 
-/* Contact Me */
+.certifications-description{
+  margin: 0 auto;
+  width: 50%;
+  line-height: 2;
+  margin-bottom: 50px;
+}
+
+.certifications-container img{
+  width: 10rem;
+}
+
+/* Contact Me Section*/
+
+.certifications-intro{
+  letter-spacing: 2px;
+}
+
 
 .contact-me-container{
   margin: 0 auto;
   text-align: center;
-  width: 44%;
+  width: 50%;
 }
 
-
-.contact-me-description2{
-  width: 44%;
-  margin: 20px auto auto auto;
+.contact-me-description{
+  font-family: 'Merriweather', sans-serif;
 }
 
 .btn-contact-me {
@@ -204,7 +248,7 @@ hr{
 .bottom-container{
   background-color: #66BFBF;
   margin: 0;
-  padding: 20px 0;
+  padding: 70px 0;
   margin-top: 60px;
 }
 
@@ -226,10 +270,27 @@ hr{
 
 .footer-link-container a{
   text-decoration: none;
+  color: white;
 }
 
 .footer-link-container a:hover{
-  color: #EAF6F6;
+  color: gray;
+}
+
+.number-of-visitors{
+  font-family: 'Poppins', sans-serif;
+  margin-top: 20px;
+  font-size: 0.8rem;
+}
+
+.powered-by{
+  margin-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 0.8rem;
+}
+
+.powered-by i{
+  font-size: 1.3rem;
 }
 
 /* error section */
