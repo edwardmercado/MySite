@@ -35,20 +35,8 @@ hr{
   text-decoration: none;
   border-radius: 4rem;
   transition-duration: 0.4s;
-}
-
-.contact-me-btn {
-  font-size: 1rem;
-  padding: 0.6rem 1.3rem;
-  color: #fff;
-  background-color: #71c9ce;
   border: 2px solid #71c9ce;
   letter-spacing: 1px;
-}
-
-.contact-me-btn:hover {
-  background-color: transparent;
-  color: #71c9ce;
 }
 
 
@@ -88,6 +76,18 @@ hr{
 .nav-link-right a{
   font-size: 1rem;
   text-decoration: none;
+}
+
+.btn-say-hello {
+  font-size: 1rem;
+  padding: 0.6rem 1.3rem;
+  color: #fff;
+  background-color: #71c9ce;
+}
+
+.btn-say-hello:hover {
+  background-color: transparent;
+  color: #71c9ce;
 }
 
 /* Big Heading */
@@ -174,15 +174,31 @@ hr{
   margin: 0px 0px 30px 30px;
 }
 
+/* Contact Me */
 
-.contact-me-description1{
+.contact-me-container{
+  margin: 0 auto;
+  text-align: center;
   width: 44%;
-  margin: auto;
 }
+
 
 .contact-me-description2{
   width: 44%;
   margin: 20px auto auto auto;
+}
+
+.btn-contact-me {
+  margin-top: 30px;
+  font-size: 1.2rem;
+  padding: 1rem 2.3rem;
+  background-color: #71c9ce;
+  color: #fff;
+}
+
+.btn-contact-me:hover {
+  background-color: transparent;
+  color: #71c9ce;
 }
 
 .bottom-container{
