@@ -2,14 +2,10 @@
 
 body{
   margin: 0;
-  font-family: 'Merriweather', serif;
+  font-family: 'Poppins', sans-serif;
   text-align: center;
   font-weight: normal;
   color: #40514E;
-}
-
-p{
-  line-height: 2;
 }
 
 h2{
@@ -32,10 +28,74 @@ hr{
   margin: 100px auto;
 }
 
+/* Button */
+
+.button {
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4rem;
+  transition-duration: 0.4s;
+}
+
+.contact-me-btn {
+  font-size: 1rem;
+  padding: 0.6rem 1.3rem;
+  color: #fff;
+  background-color: #71c9ce;
+  border: 2px solid #71c9ce;
+  letter-spacing: 1px;
+}
+
+.contact-me-btn:hover {
+  background-color: transparent;
+  color: #71c9ce;
+}
+
+
+/* Sections */
+
+.top-heading-section{
+  margin-bottom: 50px;
+}
+
+.profile-section{
+  margin-bottom: 50px;
+}
+
+/* Navigation Bar */
+
+.navbar-flexbox-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 30px 2rem;
+  background-color: #e3fdfd;
+}
+
+.icon-img{
+  width: 4.5rem;
+}
+
+
+.nav-link-right{
+  width: 15rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #71c9ce;
+}
+
+.nav-link-right a{
+  font-size: 1rem;
+  text-decoration: none;
+}
+
+/* Big Heading */
+
 .myname{
   display: inline-block;
   text-align: center;
-  font-size: 2.5rem; /* static font sizing | not inherited | 1rem == 16px | recommended for font sizes */
+  font-size: 3.8rem; /* static font sizing | not inherited | 1rem == 16px | recommended for font sizes */
   font-family: 'Poppins', sans-serif;
   color: #141c3a;
   font-weight: bold;
@@ -49,19 +109,13 @@ hr{
   font-family: 'Poppins', sans-serif;
   color: #141c3a;
   font-size: 1.1rem;
-  margin-bottom: 70px;
+  margin-bottom: 100px;
 }
 
-.menu-img{
+.big-img{
   padding-top: 30px;
   width:30rem;
 }
-
-.web-development-img{
-  padding-top: 30px;
-  width:9rem;
-}
-
 
 .top-container{
   background-color: #e3fdfd;
@@ -130,32 +184,6 @@ hr{
   width: 44%;
   margin: 20px auto auto auto;
 }
-
-.contact-me .btn{
-  margin-top: 30px;
-  display: inline-block;
-  padding: 15px 25px;
-  font-size: 1.5rem;
-  cursor: pointer;
-  text-align: center;
-  text-decoration: none;
-  outline: none;
-  color: #fff;
-  background-color: #66BFBF;
-  border: none;
-  border-radius: 15px;
-  box-shadow: 0 9px #999;
-  font-family: 'Poppins', sans-serif;
-}
-
-.btn:hover {background-color: #519898}
-
-.btn:active {
-  background-color: #519898;
-  box-shadow: 0 5px #666;
-  transform: translateY(4px);
-}
-
 
 .bottom-container{
   background-color: #66BFBF;
