@@ -36,6 +36,7 @@ hr{
   border-radius: 4rem;
   border: 2px solid #71c9ce;
   letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
 }
 
 
@@ -55,7 +56,7 @@ hr{
   display: flex;
   align-items: center;
   justify-content: space-around;
-  padding: 30px 2rem;
+  padding:50px 2rem;
   background-color: #e3fdfd;
   font-family: 'Poppins', sans-serif;
 }
@@ -125,6 +126,11 @@ hr{
 
 /* Profile Section */
 
+.profile-container{
+  margin: 0 auto;
+  text-align: center;
+}
+
 .profile-intro{
   margin: 0 auto;
   width: 44%;
@@ -150,6 +156,11 @@ hr{
 
 /* Skill container */
 
+.skill-container{
+  margin: 0 auto;
+  text-align: center;
+}
+
 .skills-container{
   margin: 0 auto;
 }
@@ -162,7 +173,6 @@ hr{
   margin: 80px auto;
   text-align: left;
   width: 50%;
-
 }
 
 .skill-row p{
@@ -177,13 +187,13 @@ hr{
 .skill-img{
   font-size: 5rem;
   float: left;
-  margin: 20px 50px 50px 0px;
+  padding: 20px 50px 50px 0px;
 }
 
 .skill2-img{
   font-size: 5rem;
   float: right;
-  margin: 20px 0px 50px 50px;
+  padding: 20px 0px 50px 50px;
 }
 
 /* .skill-row .comp1-img{
@@ -200,6 +210,11 @@ hr{
 
 /* Certifications Section */
 
+.certifications-container{
+  margin: 0 auto;
+  text-align: center;
+}
+
 .certifications-intro{
   letter-spacing: 2px;
 }
@@ -215,12 +230,12 @@ hr{
   width: 10rem;
 }
 
-/* Contact Me Section*/
-
 .certifications-intro{
   letter-spacing: 2px;
 }
 
+
+/* Contact Me Section*/
 
 .contact-me-container{
   margin: 0 auto;
@@ -230,26 +245,29 @@ hr{
 
 .contact-me-description{
   font-family: 'Merriweather', sans-serif;
+  margin-bottom: 70px;
 }
 
-.btn-contact-me {
-  margin-top: 30px;
-  font-size: 1.2rem;
-  padding: 1rem 2.3rem;
-  background-color: #71c9ce;
+.btn-contact-me{
+  font-size: 1rem;
+  padding: 0.8rem 1.3rem;
   color: #fff;
+  background-color: #71c9ce;
 }
+
 
 .btn-contact-me:hover {
   background-color: transparent;
   color: #71c9ce;
 }
 
+/* Bottom Container */
+
 .bottom-container{
   background-color: #66BFBF;
   margin: 0;
   padding: 70px 0;
-  margin-top: 60px;
+  margin-top: 100px;
 }
 
 .footer-link{
