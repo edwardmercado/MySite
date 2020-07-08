@@ -250,7 +250,8 @@ p{
 }
 
 .footer-link{
-  margin: 20px 30px;
+  margin: 1em 1em;
+  font-size: 1em;
 }
 
 .footer-link-container{
@@ -304,7 +305,6 @@ p{
 
 .powered-by i{
   font-size: 18px;
-  
 }
 
 
