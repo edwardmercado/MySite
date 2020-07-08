@@ -22,10 +22,9 @@ h3{
 }
 
 hr{
-  border: dotted gray 6px;
+  border: solid #E6ECF8 0.1px;
+  margin: 100px 0;
   border-bottom: none;
-  width: 3rem;
-  margin: 100px auto;
 }
 
 p{
@@ -109,7 +108,7 @@ p{
 }
 
 .big-img{
-  width:50%;
+  width:40%;
 }
 
 /* Profile Section */
@@ -245,24 +244,26 @@ p{
 
 .footer-container{
   margin: 0 10%;
-  padding: 70px 0;
+  padding: 50px 0;
   margin-top: 100px;
-  color: #EAF6F6;
+  color: #e3fdfd;
 }
 
 .footer-link{
-  margin: 20px 20px;
+  margin: 20px 30px;
 }
 
 .footer-link-container{
   font-family: 'Poppins', sans-serif;
   padding: 20px;
   text-decoration: none;
+  margin-bottom: 30px;
 }
+
 
 .footer-link-container a{
   text-decoration: none;
-  color: #EAF6F6;
+  color: #e3fdfd;
 }
 
 .footer-link-container a:hover{
@@ -271,11 +272,27 @@ p{
 
 .copyright{
   font-size: 12px;
+  margin-bottom: 30px;
+}
+
+.blog-post{
+  margin-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+}
+
+.blog-post a{
+  text-decoration: none;
+  color: gray;
+}
+
+.blog-post a:hover{
+  color: #e3fdfd;
 }
 
 .number-of-visitors{
   font-family: 'Poppins', sans-serif;
-  margin-top: 20px;
+  margin: 20px 0;
   font-size: 12px;
 }
 
@@ -287,7 +304,9 @@ p{
 
 .powered-by i{
   font-size: 18px;
+  
 }
+
 
 /* error section */
 
