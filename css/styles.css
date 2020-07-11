@@ -1,10 +1,16 @@
 /* for paddings, margin use px instead */
+html{
+  scroll-behavior: smooth;
+}
+
 
 body{
   margin: 0;
   font-family: 'Merriweather', sans-serif;
   font-weight: normal;
   color: #40514E;
+  line-height: 1em;
+  font-size: 1rem;
 }
 
 h2{
@@ -21,6 +27,13 @@ h3{
   font-size: 1.5em;
 }
 
+h4{
+  font-family: 'Poppins', sans-serif;
+  color: #40514E;
+  font-weight: normal;
+  font-size: 1.3em;
+}
+
 hr{
   border: solid #E6ECF8 0.1rem;
   margin: 100px 0;
@@ -31,6 +44,13 @@ p{
   margin-bottom: 0;
   size: 3px;
   line-height: 1.3em;
+}
+
+/* Headings */
+
+.headings{
+  margin-bottom: 70px;
+  letter-spacing: 2px;
 }
 
 /* Button */
@@ -66,7 +86,7 @@ p{
   width: 5em;
 }
 
-.btn-say-hello {
+.btn-say-hello{
   font-size: 18px;
   padding: 0.6em 1.3em;
   color: #fff;
@@ -75,6 +95,21 @@ p{
 
 .btn-say-hello:hover {
   background-color: transparent;
+  color: #71c9ce;
+}
+
+.nav-icon-right a{
+  text-decoration: none;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+  margin: 1rem;
+}
+
+.nav-icon-right a:hover{
+  color: #71c9ce;
+}
+
+.nav-icon-right .active{
   color: #71c9ce;
 }
 
@@ -108,7 +143,7 @@ p{
 }
 
 .big-img{
-  width:40%;
+  width:31.25rem;
 }
 
 /* Profile Section */
@@ -128,11 +163,16 @@ p{
   margin-bottom: 30px;
 }
 
+.profile-text{
+  line-height: 2rem;
+}
+
 /* Skills Section */
 
-#skills-section{
+/* #skills-section{
   display: block; 
   text-align: center;
+  margin: 30px 10%;
 }
 
 .headings{
@@ -142,7 +182,6 @@ p{
 
 .skill-container{
   display: flex;
-  margin: 30px 10%;
 }
 
 .skill-row{
@@ -183,6 +222,144 @@ p{
 .skill-title{
   color: #71c9ce;
   font-size: 1.5rem;
+} */
+
+
+/* Skill Section New */
+
+#skills-section{
+  display: block; 
+  text-align: center;
+  padding: 4rem 0;
+  border-top: solid #E6ECF8 0.1rem;
+}
+
+.skill-container{
+  display: flex;
+  align-items: center;
+  margin: 0px 10%;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-radius: 2em;
+  border: solid #E6ECF8 0.1rem;
+}
+
+.skill-box{
+  width: 22rem;
+  height: 25rem;
+  padding: 4em 2em;
+  flex-grow: 1;
+}
+
+.skill-img{
+  font-size: 3em;
+  color: #71c9ce;
+  margin-bottom: 1em;
+}
+
+.skill-title{
+  color: #71c9ce;
+  font-size: 1.5rem;
+  margin-bottom: 2em;
+  line-height: 1em;
+}
+
+.skill-stack{
+  color: #71c9ce;
+}
+
+.skill-preview{
+  margin-top: 3em;
+}
+
+.btn-arch{
+  font-size: 1rem;
+  padding: 0.8em 1.3em;
+  color: #fff;
+  background-color: #71c9ce;
+}
+
+
+.btn-arch:hover {
+  background-color: transparent;
+  color: #71c9ce;
+}
+
+/* Modal section for architecture preview */
+
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #fff; /* Black w/ opacity */
+  text-align: center;
+}
+
+/* Modal Content (image) */
+.modal-content {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+  margin: auto;
+  display: block;
+  width: 80%;
+  max-width: 700px;
+  padding: 10px 0;
+  height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {  
+  -webkit-animation-name: zoom;
+  -webkit-animation-duration: 0.6s;
+  animation-name: zoom;
+  animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+  from {-webkit-transform:scale(0)} 
+  to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+  from {transform:scale(0)} 
+  to {transform:scale(1)}
+}
+
+/* The Close Button */
+.close {
+  position: absolute;
+  top: 15px;
+  right: 35px;
+  color: #000;
+  font-size: 40px;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.close:hover,
+.close:focus {
+  color: #bbb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
 }
 
 /* Certifications Section */
@@ -190,10 +367,13 @@ p{
 #certifications-section{
   display: block;
   text-align: center;
+  background-color: #e3fdfd;
+  padding: 6.25rem 0;
 }
 
 .certifications-container{
   margin: 0 10%;
+  background-color: #e3fdfd;
 }
 
 .certifications-description{
@@ -202,7 +382,7 @@ p{
 }
 
 .certifications-container img{
-  width: 10rem;
+  width: 10em;
 }
 
 /* Contact me section */
@@ -210,6 +390,7 @@ p{
 #contact-me-section{
   display: block;
   text-align: center;
+  margin-top: 100px;
 }
 
 .contact-me-container{
