@@ -246,7 +246,7 @@ p{
 
 .skill-box{
   width: 22rem;
-  height: 25rem;
+  height: 27rem;
   padding: 4em 2em;
   flex-grow: 1;
 }
@@ -266,6 +266,7 @@ p{
 
 .skill-stack{
   color: #71c9ce;
+  margin: 2em 0;
 }
 
 .skill-preview{
