@@ -446,6 +446,7 @@ p{
 .footer-link-container a{
   text-decoration: none;
   color: #e3fdfd;
+  font-size: 1.2em;
 }
 
 .footer-link-container a:hover{
