@@ -6,7 +6,7 @@ var modalImg = document.getElementById("img-container");
 var captionText = document.getElementById("img-caption");
 img.onclick = function(){
   modal.style.display = "block";
-  modalImg.src = "images/architecture.png";
+  modalImg.src = "images/my-architecture.png";
   captionText.innerHTML = "This architecture is powered by Amazon Web Services (AWS).";
 }
 
