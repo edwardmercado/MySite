@@ -10,5 +10,22 @@ function getCurrentValuefromDB(){
         type: 'GET'
       }).done(function(data){
         document.getElementById("counter").innerHTML = parseInt(data.Attributes.current_counter);
+        if (data != null){
+            console.info({
+                "DATE": data.ResponseMetadata.HTTPHeaders.date,
+                "Request Id": data.ResponseMetadata.RequestId,
+                "METHOD": "GET",
+                "RESULT": "Success",
+                "Visit Count": data.Attributes.current_counter,
+            })
+        } else {
+            console.error({
+                "DATE": data.ResponseMetadata.HTTPHeaders.date,
+                "Request Id": data.ResponseMetadata.RequestId,
+                "METHOD": "GET",
+                "RESULT": "Fail",
+                "Visit Count": data.Attributes.current_counter,
+            })
+        }
     });
 }
