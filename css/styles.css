@@ -41,16 +41,15 @@ hr{
 }
 
 p{
-  margin-bottom: 0;
   size: 3px;
-  line-height: 1.3em;
+  line-height: 2em;
 }
 
 /* Headings */
 
 .headings{
   margin-bottom: 70px;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
 }
 
 /* Button */
@@ -363,6 +362,12 @@ p{
   }
 }
 
+#projects-section{
+  display: block; 
+  text-align: center;
+  padding: 50px 0;
+}
+
 /* Certifications Section */
 
 #certifications-section{
@@ -447,7 +452,7 @@ p{
 .footer-link-container a{
   text-decoration: none;
   color: #e3fdfd;
-  font-size: 1.2em;
+  font-size: 1.5em;
 }
 
 .footer-link-container a:hover{
