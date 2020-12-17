@@ -154,10 +154,110 @@ body{
 /* Certifications Section */
 
 #certifications-section{
-  padding: 50px 0;
+  padding: 100px 0;
   background-color: #e3fdfd;
 }
 
 .certifications-description{
   font-family: 'Merriweather', sans-serif;
+}
+
+.cert-img{
+  width: 10em;
+}
+
+.cert-container{
+  padding-top: 40px;
+}
+
+/* Contact Me Section */
+
+#contact-me-section{
+  padding: 100px 0;
+}
+
+.contact-me-description{
+  font-family: 'Merriweather', sans-serif;
+}
+
+.btn-contact-me{
+  text-align: center;
+  text-decoration: none;
+  border-radius: 4rem;
+  border: 2px solid #71c9ce;
+  letter-spacing: 1px;
+  font-family: 'Poppins', sans-serif;
+  padding: 1em 1.3em;
+  color: #fff;
+  background-color: #71c9ce;
+}
+
+
+.btn-contact-me:hover {
+  text-decoration: none;
+  background-color: transparent;
+  color: #71c9ce;
+}
+
+.button-convo{
+  margin-top: 50px;;
+}
+
+/* Footer Section */
+
+#footer-section{
+  background-color: #66BFBF;
+  padding: 50px 0;
+}
+
+.footer-link{
+  margin: 1em 1em;
+  font-size: 1em;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #e3fdfd;
+  font-size: 2em;
+}
+
+.footer-link:hover{
+  color: gray;
+}
+
+.copyright{
+  font-size: 12px;
+  margin: 30px;
+  font-family: 'Merriweather', sans-serif;
+}
+
+.number-of-visitors{
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0;
+  font-size: 12px;
+}
+
+.powered-by{
+  margin-top: 10px;
+  font-family: 'Poppins', sans-serif;
+  font-size: 12px;
+}
+
+.powered-by i{
+  font-size: 18px;
+}
+
+/* error section */
+
+#error-section{
+  font-family: 'Poppins', sans-serif;
+  margin: 0 auto;
+}
+
+#error-section h1{
+  font-size: 10rem;
+}
+
+#error-section a{
+  text-decoration: none;
 }
