@@ -52,10 +52,6 @@ body{
   color: #71c9ce;
 }
 
-.big-img {
-  display: inline-block;
-}
-
 /* Top Heading Section */
 
 #top-heading-section{
@@ -80,7 +76,7 @@ body{
 }
 
 .big-img{
-  width:31.25rem;
+  width:30rem;
 }
 
 /* Profile Section */
