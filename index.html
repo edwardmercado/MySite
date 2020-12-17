@@ -2,169 +2,90 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <title>Edward Allen - a developer</title>
-
-    <!-- jQuery -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-
-    <link rel="stylesheet" href="css/styles.css">
-
     <link rel="icon" href="favicon.ico">
-    
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
     <!--embedded font-->
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Montserrat:800|Oswald:500|Poppins|Short+Stack&display=swap" rel="stylesheet">
+    
+    <!--My CSS-->
+    <link rel="stylesheet" href="css/styles.css">
+  
   </head>
   <body>
 
     <section id="navbar-section">
-      
-      <div class="navbar-container">
 
-        <div class="nav-icon-left">
-          <a href="#"><img class="icon-img" src="images/profile-round.png" alt="icon-img"></a>
-        </div>
+      <div class="container">
 
-        <div class="nav-icon-right">
-          <a href="#" class="active nav-about nav-links">About</a>
-          <a href="#skills-section" class="nav-skills nav-links">Skills</a>
-          <a href="mailto:edwardallenmercado@gmail.com" class="button btn-say-hello">Say Hello</a>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-light justify-content-between">
+          <a class="navbar-brand" href="#">
+            <img src="images/profile-round.png" class="nav-icon">
+          </a>
+
+          <form class="form-inline" id="navbarDropdownMenuLink">
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+
+              <ul class="navbar-nav mr-auto align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">About <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Projects</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Blogs</a>
+                </li>
+                <li class="nav-item">
+                  <button class="btn-say-hello" type="button">Say Hello</button>
+                </li>  
+              </ul>
+
+            </div>
+
+          </form>
+
+        </nav>
+
       </div>
 
     </section>
 
     <section id="top-heading-section">
 
-      <div class="top-container">
-        <p class="my-name">I'm Edward.</p>
-        <p class="my-desc">I develop applications to make things simple yet innovative.</p>
+      <div class="container">
 
-        <img class="big-img" src="images/combination.png" alt="technology-img">
-        
+        <h1 class="d-flex justify-content-center my-name">I'm Edward Allen</h1>
+        <p class="d-flex justify-content-center my-desc">I develop applications to make things simple yet innovative.</p>
+
+        <img class="img-fluid d-block mx-auto big-img" src="images/combination.png" alt="technology-img">
+
       </div>
-    </section>
 
-    <section id="profile-section">
-      <div class="profile-container">
-
-        <img class="profile-img" src="images/profile-round.png" alt="menu-img">
-        
-        <h2 class="profile-text headings">a developer, Amazon Web Services enthusiast</h2>
-        <p class="profile-intro">Developing applications is my hobby, and I love what I do. The desire to learn and discover new things gives me fuel to aim higher everytime.</p>
-        
-  
-      </div>
-    </section>
-
-    <section id="skills-section">
-      
-      <h2 class="skill-intro headings">What I can do</h2>
-
-      <div class="skill-container">
-
-        <div class="skill-box">
-
-          <div class="skill-description-holder">
-            <i class="skill-img fas fa-code"></i>
-            <h3 class="skill-title">Develop what you need.</h3>
-            <p class="skill-description">I like to make things simple. I can help you to develop a product that can will suit your business or personal needs.</p>
-            
-            <h4 class="skill-stack">Languages I speak:</h4>
-            <p>
-              Python, Javascript, Java, HTML5, CSS3, PHP, SQL, NoSQL
-            </p>
-          </div>
-
-        </div>
-  
-        <div class="skill-box">
-
-          <div class="skill-description-holder">
-            <i class="skill-img fas fa-cloud"></i>
-            <h3 class="skill-title">Architect cloud infrastructure.</h3>
-            <p class="skill-description">I can help you to design and architect your cloud infrastructure leveraging the best practices.</p>
-            
-            <h4 class="skill-stack">Tools I use:</h4>
-            <p>
-              Amazon Web Services (AWS)
-            </p>
-          </div>
-
-          <div class="skill-preview">
-            <a id="myModalButton" class="button btn-arch">See this website architecture</a>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <!-- Hidden Div for architecture preview -->
-    <div id="myImgModal" class="modal">
-      <span class="close">&times;</span>
-      <img class="modal-content" id="img-container">
-      <div id="img-caption"></div>
-    </div>
-
-    <section id="certifications-section">
-
-      <div class="certifications-container">
-
-        <h2 class="certifications-intro headings">My Certifications</h2>
-        <p class="certifications-description">My current certifications and there will be more soon.</p>
-        <img src="images/DVA.png" alt="Developer">
-        <img src="images/SAA.png" alt="Solutions Architect">
-      </div>
-      
-    </section>
-
-    <section id="contact-me-section">
-      <h2 class="contact-me-title headings">Get In Touch</h2>
-
-      <div class="contact-me-container">
-        <div class="contact-me">
-          <p class="contact-me-description">I’m always open to discuss work related or partnership opportunities.</p>
-          <br>
-          <a href="mailto:edwardallenmercado@gmail.com" class="button btn-contact-me">Start a conversation</a>
-        </div>
-      </div>
-    </section>
-    
-
-    <section id="footer-section">
-
-      <div class="footer-container">
-
-        <div class="footer-link-container">
-          <a class="footer-link" href="https://www.linkedin.com/in/edward-allen-mercado-677b69139"><i class="fab fa-linkedin"></i></a>
-          <a class="footer-link" href="https://github.com/edwardmercado"><i class="fab fa-github"></i></a>
-          <a class="footer-link" href="https://www.youracclaim.com/users/edward-allen-mercado"><i class="fab fa-artstation"></i></a>
-          <a class="footer-link" href="mailto:edwardallenmercado@gmail.com"><i class="fas fa-envelope"></i></a>
-        </div>
-        
-        <div class="copyright">
-          <span>© 2020 Edward Allen Mercado. All rights reserved.</span>
-        </div>
-
-        <div class="blog-post">
-          <span>Inspired by "The Cloud Resume Challenge". See my <a href="https://dev.to/edwardmercado/my-journey-on-the-cloud-resume-challenge-mh4">blog post.</a></span>
-        </div>
-
-        <div class="number-of-visitors">
-          <span >Site Visitors: <span id="counter">0</span></span>
-        </div>
-
-        <div class="powered-by">
-          <span> Made with &nbsp;<i class="fab fa-aws"></i></span>
-        </div>
-      </div>
     </section>
 
   </body>
+
+  <!-- Optional JavaScript -->
+  <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
   <!-- page counter -->
   <script type="text/javascript" src="scripts/page-counter.js"></script>
 
   <!-- Image preview model script -->
-
   <script type="text/javascript" src="scripts/img-modal-preview.js"></script>
 
   <!--font awesome-->
