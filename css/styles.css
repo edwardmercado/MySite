@@ -104,3 +104,60 @@ body{
 .profile-intro{
   font-family: 'Merriweather', sans-serif;
 }
+
+.headings{
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  color: #71c9ce;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2em;
+}
+
+/* Skill Section */
+
+#skills-section{
+  padding: 50px 0;
+}
+
+.skills-container{
+  border-radius: 2em;
+  border: solid #E6ECF8 0.1rem;
+  padding: 50px;
+}
+
+.skill-img{
+  font-size: 3em;
+  color: #71c9ce;
+  margin-bottom: 1em;
+}
+
+.skill-title{
+  color: #71c9ce;
+  font-size: 1.5rem;
+  margin-bottom: 2em;
+  line-height: 1em;
+}
+
+.skill-description{
+  font-family: 'Merriweather', sans-serif;
+}
+
+.skill-stack{
+  color: #71c9ce;
+  margin: 2em 0;
+}
+
+.skills-example{
+  font-family: 'Merriweather', sans-serif;
+}
+
+/* Certifications Section */
+
+#certifications-section{
+  padding: 50px 0;
+  background-color: #e3fdfd;
+}
+
+.certifications-description{
+  font-family: 'Merriweather', sans-serif;
+}
