@@ -59,7 +59,6 @@ body{
 /* Top Heading Section */
 
 #top-heading-section{
-  padding: 70px 0;
   background-color: #e3fdfd;
 }
 
@@ -82,4 +81,26 @@ body{
 
 .big-img{
   width:31.25rem;
+}
+
+/* Profile Section */
+
+#profile-section{
+  padding: 50px 0;
+  font-family: 'Poppins', sans-serif;
+  color: #141c3a;
+}
+
+.profile-img{
+  width: 200px;
+  margin-bottom: 30px;
+}
+
+.profile-text{
+  line-height: 2rem;
+  margin-bottom: 30px;
+}
+
+.profile-intro{
+  font-family: 'Merriweather', sans-serif;
 }
