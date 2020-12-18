@@ -12,6 +12,20 @@ body{
   font-size: 1rem;
 }
 
+.headings{
+  margin-bottom: 20px;
+  letter-spacing: 2px;
+  color: #71c9ce;
+  font-family: 'Poppins', sans-serif;
+  font-size: 2em;
+}
+
+.descriptions{
+  font-family: 'Merriweather', sans-serif;
+}
+
+/* NavBar Section */
+
 #navbar-section{
   padding: 20px 0;
   background-color: #e3fdfd;
@@ -89,7 +103,7 @@ body{
 
 .profile-img{
   width: 200px;
-  margin-bottom: 30px;
+  margin: 50px 0;
 }
 
 .profile-text{
@@ -101,13 +115,7 @@ body{
   font-family: 'Merriweather', sans-serif;
 }
 
-.headings{
-  margin-bottom: 20px;
-  letter-spacing: 2px;
-  color: #71c9ce;
-  font-family: 'Poppins', sans-serif;
-  font-size: 2em;
-}
+
 
 /* Skill Section */
 
@@ -146,6 +154,49 @@ body{
 .skills-example{
   font-family: 'Merriweather', sans-serif;
 }
+
+/* Project Section */
+
+#projects-section{
+  padding: 50px 0;
+}
+
+.projects-description{
+  font-family: 'Merriweather', sans-serif;
+}
+
+.projects-container{
+  margin-top: 50px;
+}
+
+.project-card{
+  height: 100%;
+}
+
+.card-text{
+  line-height: 1.5em;
+}
+
+.project-img{
+  height: 40%;
+}
+
+.project-title{
+  color: #71c9ce;
+  font-size: 1.5rem;
+  line-height: 1em;
+}
+
+.btn-project{
+  background-color: #66BFBF;
+  border-color: #66BFBF;
+}
+
+.btn-project:hover{
+  background-color: #71c9ce;
+  border-color: #71c9ce;
+}
+
 
 /* Certifications Section */
 
