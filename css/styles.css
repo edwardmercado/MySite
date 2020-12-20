@@ -63,6 +63,7 @@ body{
 
 .btn-say-hello:hover {
   background-color: transparent;
+  text-decoration: none;
   color: #71c9ce;
 }
 
