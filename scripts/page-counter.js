@@ -6,7 +6,7 @@ function visitorCounter(){
 
 function getCurrentValuefromDB(){
     $.ajax({
-        url: 'https://msjfodj6p7.execute-api.ap-southeast-1.amazonaws.com/Prod/update',
+        url: 'https://6dp3g16j3m.execute-api.ap-southeast-1.amazonaws.com/Prod/update',
         type: 'GET'
       }).done(function(data){
         document.getElementById("counter").innerHTML = parseInt(data.Attributes.current_counter);
